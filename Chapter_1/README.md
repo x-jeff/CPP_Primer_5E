@@ -49,3 +49,29 @@ std::cout<<"The sum of "<<v1
 		<<" and "<<v2
 		<<" is "<<v1+v2<<std::endl;
 ```
+
+## 练习1.7
+
+编译一个包含不正确的嵌套注释的程序，观察编译器返回的错误信息。
+
+【答案】[Exercise1_7](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_7.cpp)。
+
+## 练习1.8
+
+指出下列哪些输出语句是合法的（如何有的话）：
+
+```c++
+std::cout<<"/*";
+std::cout<<"*/";
+std::cout<</*"*/"*/;
+std::cout<</*"*/"/*"/*"*/;
+```
+
+预测编译这些语句会产生什么样的结果，实际编译这些语句来验证你的答案（编写一个小程序，每次将上述一条语句作为其主体），改正每个编译错误。
+
+【答案】[Exercise1_8](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_8.cpp)。
+
+1. 正确，输出为：`/*`。
+2. 正确，输出为：`*/`。
+3. 不正确，可以修改为：`std::cout<</*"*/"*/";`。
+4. 正确，输出为：`/*`。
