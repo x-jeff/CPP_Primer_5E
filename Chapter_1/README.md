@@ -75,3 +75,21 @@ std::cout<</*"*/"/*"/*"*/;
 2. 正确，输出为：`*/`。
 3. 不正确，可以修改为：`std::cout<</*"*/"*/";`。
 4. 正确，输出为：`/*`。
+
+## 练习1.9
+
+编写程序，使用`while`循环将50到100的整数相加。
+
+【答案】[Exercise1_9](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_9.cpp)。
+
+## 练习1.10
+
+除了`++`运算符将运算对象的值增加1之外，还有一个递减运算符（`--`）实现将值减少1。编写程序，使用递减运算符在循环中按递减顺序打印出10到0之间的整数。
+
+【答案】[Exercise1_10](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_10.cpp)。
+
+## 练习1.11
+
+编写程序，提示用户输入两个整数，打印出这两个整数所指定的范围内的所有整数。
+
+【答案】[Exercise1_11](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_11.cpp)。
