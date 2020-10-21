@@ -93,3 +93,39 @@ std::cout<</*"*/"/*"/*"*/;
 编写程序，提示用户输入两个整数，打印出这两个整数所指定的范围内的所有整数。
 
 【答案】[Exercise1_11](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_11.cpp)。
+
+## 练习1.12
+
+下面的for循环完成了什么功能？sum的终值是多少？
+
+```c++
+int sum = 0;
+for (int i = -100; i <= 100; ++i)
+	sum += i;
+```
+
+【答案】该for循环实现了从-100到+100之间所有整数的求和。sum的终值为0。代码见[Exercise1_12](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_12.cpp)。
+
+## 练习1.13
+
+使用for循环重做1.4.1节中的所有练习（第11页）。
+
+【答案】[Exercise1_13](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_13.cpp)。
+
+## 练习1.14
+
+对比for循环和while循环，两种形式的优缺点各是什么？
+
+【答案】
+
+for循环分为循环头和循环体两部分，形式更为简洁，比较适用于循环次数已知的情况，其循环控制变量放在循环头内。
+
+while循环更适用于循环次数不易确定的情况，其循环控制变量通常放在循环体内。
+
+for循环和while循环在功能上是等价的，可以相互转换。
+
+## 练习1.15
+
+编写程序，包含第14页“再探编译”中讨论的常见错误。熟悉编译器生成的错误信息。
+
+【答案】[Exercise1_15](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_15.cpp)。
