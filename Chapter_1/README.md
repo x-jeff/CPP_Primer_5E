@@ -129,3 +129,9 @@ for循环和while循环在功能上是等价的，可以相互转换。
 编写程序，包含第14页“再探编译”中讨论的常见错误。熟悉编译器生成的错误信息。
 
 【答案】[Exercise1_15](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_15.cpp)。
+
+## 练习1.16
+
+编写程序，从`cin`读取一组数，输出其和。
+
+【答案】[Exercise1_16](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_16.cpp)。
