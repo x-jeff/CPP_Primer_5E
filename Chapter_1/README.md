@@ -135,3 +135,31 @@ for循环和while循环在功能上是等价的，可以相互转换。
 编写程序，从`cin`读取一组数，输出其和。
 
 【答案】[Exercise1_16](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_16.cpp)。
+
+## 练习1.17
+
+如果输入的所有值都是相等的，本节的程序会输出什么？如果没有重复值，输出又会是怎样的？
+
+【答案】例如输入为（全是重复值）：`42 42 42 42 42 42`，输出为：`42 occurs 6 times`；如果输入为（没有重复值）：`1 2 3 4 5 6`，输出为：
+
+```
+1 occurs 1 times
+2 occurs 1 times
+3 occurs 1 times
+4 occurs 1 times
+5 occurs 1 times
+```
+
+代码地址：[Exercise1_17](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_17.cpp)。
+
+## 练习1.18
+
+编译并运行本节的程序，给它输入全部相等的值。再次运行程序，输入没有重复的值。
+
+【答案】同练习1.17。
+
+## 练习1.19
+
+修改你为1.4.1节练习1.10（第11页）所编写的程序（打印一个范围内的数），使其能处理用户输入的第一个数比第二个数小的情况。
+
+【答案】[Exercise1_19](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_19.cpp)。
