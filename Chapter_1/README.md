@@ -163,3 +163,21 @@ for循环和while循环在功能上是等价的，可以相互转换。
 修改你为1.4.1节练习1.10（第11页）所编写的程序（打印一个范围内的数），使其能处理用户输入的第一个数比第二个数小的情况。
 
 【答案】[Exercise1_19](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_19.cpp)。
+
+## 练习1.20
+
+在网站[http://www.informit.com/title/0321714113](http://www.informit.com/title/0321714113)上，第1章的代码目录中包含了头文件`Sale_item.h`。将它拷贝到你自己的工作目录中。用它编写一个程序，读取一组书籍销售记录，将每条记录打印到标准输出上。
+
+【答案】[Exercise1_20](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_20.cpp)。
+
+## 练习1.21
+
+编写程序，读取两个ISBN相同的Sales_item对象，输出它们的和。
+
+【答案】[Exercise1_21](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_21.cpp)。
+
+## 练习1.22
+
+编写程序，读取多个具有相同ISBN的销售记录，输出所有记录的和。
+
+【答案】[Exercise1_22](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_22.cpp)。
