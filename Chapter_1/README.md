@@ -181,3 +181,15 @@ for循环和while循环在功能上是等价的，可以相互转换。
 编写程序，读取多个具有相同ISBN的销售记录，输出所有记录的和。
 
 【答案】[Exercise1_22](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_22.cpp)。
+
+## 练习1.23
+
+编写程序，读取多条销售记录，并统计每个ISBN（每本书）有几条销售记录。
+
+【答案】[Exercise1_23](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_23.cpp)。
+
+## 练习1.24
+
+输入表示多个ISBN的多条销售记录来测试上一个程序，每个ISBN的记录应该聚在一起。
+
+【答案】[Exercise1_23](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_23.cpp)。
