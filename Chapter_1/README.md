@@ -193,3 +193,9 @@ for循环和while循环在功能上是等价的，可以相互转换。
 输入表示多个ISBN的多条销售记录来测试上一个程序，每个ISBN的记录应该聚在一起。
 
 【答案】[Exercise1_23](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_23.cpp)。
+
+## 练习1.25
+
+借助网站上的Sales_item.h头文件，编译并运行本节给出的书店程序。
+
+【答案】[Exercise1_25](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_1/Exercise1_25.cpp)。
