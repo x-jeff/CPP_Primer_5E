@@ -21,3 +21,36 @@ C++标准指定了一个浮点数有效位数的最小值，然而大多数编�
 计算按揭贷款时，对于利率、本金和付款分别应选择何种数据类型？说明你的理由。
 
 【答案】利率可使用`float`或者`double`类型。本金和付款如果单位是“元”（以人民币为例），则可使用`float`类型，如果单位是“分”（人民币最小单位），则可使用`int`或者`long`，甚至`long long`。
+
+## 练习2.3
+
+读程序写结果。
+
+```c++
+    unsigned u = 10, u2 = 42;
+    std::cout << u2 - u << std::endl;
+    std::cout << u - u2 << std::endl;
+
+    int i = 10, i2 = 42;
+    std::cout << i2 - i << std::endl;
+    std::cout << i - i2 << std::endl;
+    std::cout << i - u << std::endl;
+    std::cout << u - i << std::endl;
+```
+
+【答案】
+
+```
+32
+4294967264
+32
+-32
+0
+0
+```
+
+## 练习2.4
+
+编写程序检查你的估计是否正确，如果不正确，请仔细研读本节直到弄明白问题所在。
+
+【答案】[Exercise2_4](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_2/Exercise2_4.cpp)。
