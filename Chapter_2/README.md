@@ -135,3 +135,66 @@ int month=09,day=07;
 请利用转义序列编写一段程序，要求先输出2M，然后转到新一行。修改程序使其先输出2，然后输出制表符，再输出M，最后转到新一行。
 
 【答案】[Exercise2_8](https://github.com/x-jeff/CPP_Primer_5E/blob/master/Chapter_2/Exercise2_8.cpp)。
+
+## 练习2.9
+
+解释下列定义的含义。对于非法的定义，请说明错在何处并将其改正。
+
+```c++
+//(a)
+std::cin >> int input_value;
+//(b)
+int i = {3.14};
+//(c)
+double salary = wage = 9999.99;
+//(d)
+int i = 3.14;
+```
+
+【答案】
+
+```c++
+//(a)
+std::cin >> int input_value;
+//错误，需先定义变量input_value。
+//可改正为：
+int input_value;
+std::cin >> input_value;
+
+//(b)
+int i = {3.14};
+//错误，当用于内置类型的变量时，如果使用列表初始化且初始值存在丢失信息的风险，则编译器将报错。
+//可改正为：
+int i = 3.14;
+
+//(c)
+double salary = wage = 9999.99;
+//错误，未定义变量wage。
+//可改正为：
+double salary,wage;
+salary = wage = 9999.99;
+
+//(d)
+int i = 3.14;
+//正确，隐式转换。
+```
+
+## 练习2.10
+
+下列变量的初值分别是什么？
+
+```c++
+std::string global_str;
+int global_int;
+int main()
+{
+	int local_int;
+	std::string local_str;
+}
+```
+
+【答案】
+
+1. 定义于任何函数体之外的内置类型的变量被初始化为0。所以`global_int`被初始化为0。
+2. 定义在函数体内部的内置类型变量将不被初始化。一个未被初始化的内置类型变量的值是未定义的。所以`local_int`的值是未定义的。
+3. 每个类各自决定其初始化对象的方式。string类规定如果没有指定初值则生成一个空串。所以`global_str`和`local_str`均被初始化为`""`。
